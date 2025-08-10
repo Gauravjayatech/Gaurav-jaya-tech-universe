@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Gaurav And Jaya Tech Universe — collaborate or say hi.">
+  <title>Contact | Gaurav And Jaya Tech Universe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">GAURAV & JAYA<br><span class="sublogo">TECH UNIVERSE</span></h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Get in Touch</h2>
+    <p>Email: <a href="mailto:hello@gauravjaya.tech">hello@gauravjaya.tech</a></p>
+    <p>GitHub: <a href="https://github.com/gauravjaytech" target="_blank">github.com/gauravjaytech</a></p>
+    <p>Instagram / X: <a href="#" target="_blank">@yourusername</a></p>
+    <p class="note">Want something featured here (tool, collab, tutorial)? Drop a message — we reply like humans, not bots.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Gaurav And Jaya Tech Universe</p>
+  </footer>
+</body>
+</html>

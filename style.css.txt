@@ -1,0 +1,141 @@
+:root{
+  --bg1: #0f1724;
+  --bg2: #04263a;
+  --accent: #ff6f61;
+  --muted: #bfcbdc;
+  --glass: rgba(255,255,255,0.06);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, Arial, sans-serif;
+  background: linear-gradient(135deg, var(--bg1), var(--bg2));
+  color: #fff;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.5;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 28px;
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(6px);
+}
+
+.logo{
+  margin:0;
+  font-size:1.1rem;
+  line-height:1;
+  letter-spacing:0.6px;
+}
+.sublogo{
+  display:block;
+  font-size:0.7rem;
+  color:var(--muted);
+  letter-spacing:1.5px;
+  margin-top:4px;
+}
+
+nav ul{
+  display:flex;
+  gap:18px;
+  list-style:none;
+  margin:0;
+  padding:0;
+  align-items:center;
+}
+nav ul li a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+  padding:6px 8px;
+  border-radius:6px;
+  transition:all .18s ease;
+}
+nav ul li a:hover,
+nav ul li a.active{
+  color:var(--accent);
+  transform:translateY(-2px);
+}
+
+.hero{
+  text-align:center;
+  padding:80px 20px 56px;
+}
+.hero h2{
+  font-size:2.4rem;
+  margin:0 0 12px;
+}
+.hero p{
+  max-width:820px;
+  margin:0 auto;
+  color:var(--muted);
+  font-size:1.05rem;
+}
+.btn{
+  display:inline-block;
+  margin-top:18px;
+  padding:10px 18px;
+  background:var(--accent);
+  color:#fff;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:700;
+  letter-spacing:0.3px;
+}
+
+.main{padding:40px 20px}
+
+.content{
+  max-width:980px;
+  margin:36px auto;
+  padding:0 18px;
+}
+
+.highlights{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+  gap:18px;
+  max-width:1100px;
+  margin:24px auto 60px;
+  padding:0 18px;
+}
+
+.card{
+  background:var(--glass);
+  padding:18px;
+  border-radius:12px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.5);
+}
+.highlight h3{margin:0 0 8px}
+.lead{color:var(--muted)}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:18px;
+  margin-top:20px;
+}
+
+.note{color:var(--muted); margin-top:10px}
+
+footer{
+  text-align:center;
+  padding:26px 18px;
+  color: #c9d6e3;
+  border-top: 1px solid rgba(255,255,255,0.03);
+  margin-top:80px;
+  font-size:0.95rem;
+}
+
+/* Responsive tweaks */
+@media (max-width:720px){
+  .hero h2{font-size:1.6rem}
+  nav{padding:14px}
+  .logo{font-size:0.95rem}
+  .sublogo{font-size:0.66rem}
+}

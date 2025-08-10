@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gaurav And Jaya Tech Universe — Frontend devs, creators & builders. All projects, links and tools in one place.">
+  <title>Gaurav And Jaya Tech Universe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">GAURAV & JAYA<br><span class="sublogo">TECH UNIVERSE</span></h1>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <h2>We Own This Space.</h2>
+      <p>Welcome to <strong>Gaurav And Jaya Tech Universe</strong> — where frontend craft, cheeky creativity, and smart tools collide.  
+      I build fast, polished web tools and experiences that people actually love to use. Browse my projects, launch tools, or get in touch.</p>
+      <a class="btn" href="projects.html">Explore Projects</a>
+    </section>
+  </header>
+
+  <main>
+    <section class="highlights">
+      <div class="card highlight">
+        <h3>Frontend • Creators</h3>
+        <p>Pixel-perfect UI, accessible interactions, and performance-first code.</p>
+      </div>
+      <div class="card highlight">
+        <h3>Tools • Mini Apps</h3>
+        <p>Deploy small tools fast — add links here and get them searchable on Google.</p>
+      </div>
+      <div class="card highlight">
+        <h3>Automation • Ideas</h3>
+        <p>Workflows, scripts and growth-first thinking to scale your side hustle.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Gaurav And Jaya Tech Universe — Built with grit & too much coffee ☕</p>
+  </footer>
+</body>
+</html>

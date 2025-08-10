@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projects and tools from Gaurav And Jaya Tech Universe. Launch demos, try tools and get links for indexing.">
+  <title>Projects | Gaurav And Jaya Tech Universe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">GAURAV & JAYA<br><span class="sublogo">TECH UNIVERSE</span></h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Projects & Mini-Tools</h2>
+    <p class="lead">Add a new project file or external link here and it’s instantly available to share (and index).</p>
+
+    <div class="cards">
+      <!-- Example project card — replace href with your live link -->
+      <div class="card">
+        <h3>🧭 Link Hub (This Site)</h3>
+        <p>Central hub for everything we build — links, demos, and quick launches.</p>
+        <a class="btn" href="https://gauravjaytech.github.io/" target="_blank">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>🛠️ Mini Tool — Text Formatter</h3>
+        <p>Quick text cleanup and formatting tool for creators.</p>
+        <a class="btn" href="#" target="_blank">Launch</a>
+      </div>
+
+      <div class="card">
+        <h3>📈 Growth Snippets</h3>
+        <p>Small scripts and ideas to boost engagement & retention.</p>
+        <a class="btn" href="#" target="_blank">Launch</a>
+      </div>
+    </div>
+
+    <p class="note">Want a new tool to appear here? Add its link to this file (or create a new HTML page in the repo) and commit — it will go live automatically.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Gaurav And Jaya Tech Universe</p>
+  </footer>
+</body>
+</html>
